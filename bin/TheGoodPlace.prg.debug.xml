@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="8" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="9" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="13" pc="268435479" symbol="onLayout"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="14" pc="268435483" symbol="onLayout"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="20" pc="268435521" symbol="onShow"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="24" pc="268435526" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="26" pc="268435530" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="27" pc="268435547" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="28" pc="268435621" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="29" pc="268435645" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="32" pc="268435659" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="38" pc="268435680" symbol="onHide"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="42" pc="268435685" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="46" pc="268435690" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="5" pc="268435695" symbol="initialize"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="6" pc="268435699" symbol="initialize"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="10" pc="268435718" symbol="onStart"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="14" pc="268435723" symbol="onStop"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="18" pc="268435728" symbol="getInitialView"/>
-<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="19" pc="268435732" symbol="getInitialView"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="20" pc="268435770" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="24" pc="268435782" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="25" pc="268435953" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="26" pc="268435986" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="27" pc="268436038" symbol="WatchFace"/>
-<entry filename="C:\\Windows\\System32\\Rez" lineNum="30" pc="268436084" symbol="WatchFace"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="11" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="12" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="16" pc="268435479" symbol="onLayout"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="17" pc="268435483" symbol="onLayout"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="18" pc="268435522" symbol="onLayout"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="19" pc="268435561" symbol="onLayout"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="25" pc="268435599" symbol="onShow"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="29" pc="268435604" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="31" pc="268435608" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="32" pc="268435625" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="33" pc="268435641" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="34" pc="268435652" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="36" pc="268435662" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="39" pc="268435716" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="40" pc="268435752" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="42" pc="268435764" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="43" pc="268435800" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="45" pc="268435863" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="47" pc="268435893" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="48" pc="268435915" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="49" pc="268435922" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="50" pc="268435929" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="51" pc="268435940" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="53" pc="268435953" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="54" pc="268435989" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="56" pc="268436012" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="58" pc="268436084" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="60" pc="268436138" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="61" pc="268436174" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="67" pc="268436247" symbol="onHide"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="71" pc="268436252" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceView.mc" lineNum="75" pc="268436257" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="5" pc="268436262" symbol="initialize"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="6" pc="268436266" symbol="initialize"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="10" pc="268436285" symbol="onStart"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="14" pc="268436290" symbol="onStop"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="18" pc="268436295" symbol="getInitialView"/>
+<entry filename="C:\\Users\\dobbs\\eclipse-workspace\\TheGoodPlace\\source\\TheGoodPlaceApp.mc" lineNum="19" pc="268436299" symbol="getInitialView"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="22" pc="268436337" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="26" pc="268436349" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="27" pc="268436520" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="28" pc="268436553" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="29" pc="268436605" symbol="WatchFace"/>
+<entry filename="C:\\Windows\\System32\\Rez" lineNum="32" pc="268436651" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
@@ -39,12 +57,15 @@
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="18" symbol="sunBitmap"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="14" symbol="MountainIcon"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="14" symbol="AppName"/>
+<entry field="true" id="16" symbol="AppName"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry field="true" id="13" symbol="SunIcon"/>
+<entry field="true" id="15" symbol="LauncherIcon"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry field="true" id="8389065" symbol="locY"/>
@@ -61,20 +82,24 @@
 <entry id="10" object="true" symbol="TheGoodPlaceApp"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="11" module="true" symbol="Menus"/>
+<entry field="true" id="17" symbol="mountainBitmap"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
-<entry endPc="268435679" name="view" stackId="4" startPc="268435530"/>
-<entry endPc="268435679" name="timeString" stackId="3" startPc="268435530"/>
-<entry endPc="268435679" name="clockTime" stackId="2" startPc="268435530"/>
-<entry endPc="268435680" name="dc" stackId="1" startPc="268435526"/>
-<entry endPc="268435723" name="state" stackId="1" startPc="268435718"/>
-<entry endPc="268435728" name="state" stackId="1" startPc="268435723"/>
-<entry endPc="268436101" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268435782"/>
-<entry endPc="268436101" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268435782"/>
-<entry endPc="268436102" name="dc" stackId="1" startPc="268435770"/>
+<entry endPc="268435599" name="dc" stackId="1" startPc="268435479"/>
+<entry endPc="268436246" name="hour" stackId="3" startPc="268435608"/>
+<entry endPc="268436246" name="endDegree" stackId="7" startPc="268435608"/>
+<entry endPc="268436246" name="timeString" stackId="4" startPc="268435608"/>
+<entry endPc="268436246" name="degreeOffset" stackId="5" startPc="268435608"/>
+<entry endPc="268436246" name="clockTime" stackId="2" startPc="268435608"/>
+<entry endPc="268436246" name="startDegree" stackId="6" startPc="268435608"/>
+<entry endPc="268436247" name="dc" stackId="1" startPc="268435604"/>
+<entry endPc="268436290" name="state" stackId="1" startPc="268436285"/>
+<entry endPc="268436295" name="state" stackId="1" startPc="268436290"/>
+<entry endPc="268436668" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268436349"/>
+<entry endPc="268436668" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268436349"/>
+<entry endPc="268436669" name="dc" stackId="1" startPc="268436337"/>
 </localVars>
 <annotations/>
 <functions>
@@ -125,11 +150,11 @@
 <dataEntry offset="166" parentId="globals" symbolId="TheGoodPlaceApp" type="class"/>
 <dataEntry offset="237" parentId="globals" symbolId="Rez" type="module"/>
 <dataEntry offset="316" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="355" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="386" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="417" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="448" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="487" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="526" parentId="globals" symbolId="TheGoodPlaceView" type="class"/>
+<dataEntry offset="371" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="402" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="433" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="464" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="503" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="542" parentId="globals" symbolId="TheGoodPlaceView" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
