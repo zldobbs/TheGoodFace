@@ -1,0 +1,4 @@
+<fonts>
+	<font id="londrina_shadow" filename="londrina_shadow.fnt" antialias="true" filter="0123456789" />
+	<font id="londrina_solid" filename="londrina_solid.fnt" antialias="true" filter="0123456789" />
+</fonts>

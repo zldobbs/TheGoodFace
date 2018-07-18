@@ -7,6 +7,8 @@ class TheGoodPlaceView extends WatchUi.WatchFace {
 
 	var mountainBitmap = null;
 	var sunBitmap = null;
+	var innerFont = null;
+	var outerFont = null;
 
     function initialize() {
         WatchFace.initialize();
@@ -16,6 +18,8 @@ class TheGoodPlaceView extends WatchUi.WatchFace {
     function onLayout(dc) {
     	mountainBitmap = loadResource(Rez.Drawables.MountainIcon);
         sunBitmap = loadResource(Rez.Drawables.SunIcon);
+        innerFont = loadResource(Rez.Fonts.londrina_shadow);
+        outerFont = loadResource(Rez.Fonts.londrina_solid);
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
@@ -33,13 +37,13 @@ class TheGoodPlaceView extends WatchUi.WatchFace {
         if (hour == 0) {
         	hour = 12;
         }
-        var timeString = Lang.format("$1$:$2$", [hour, clockTime.min]);
+        var timeString = Lang.format("$1$", [hour]);
         
         // clear background , check if this is even necessary 
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
         // draw background color 
-        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLUE);
+        dc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_DK_BLUE);
         dc.fillCircle(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 2);
         // draw sun 
         dc.drawBitmap(0, 0, sunBitmap);
@@ -50,7 +54,6 @@ class TheGoodPlaceView extends WatchUi.WatchFace {
         if (endDegree > 360) {
         	endDegree = endDegree - 360; 
         }
-        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLUE);
         dc.setPenWidth(dc.getWidth());
         // draw mask
         dc.drawArc(dc.getWidth() / 2, dc.getHeight() / 2, dc.getWidth() / 2, 0, startDegree, endDegree); 
@@ -58,8 +61,15 @@ class TheGoodPlaceView extends WatchUi.WatchFace {
         dc.drawBitmap(dc.getWidth() / 4, dc.getHeight() / 4, mountainBitmap);
         // draw hour
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, Graphics.FONT_SYSTEM_LARGE, timeString, Graphics.TEXT_JUSTIFY_CENTER); 
-    }
+        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, innerFont, timeString, Graphics.TEXT_JUSTIFY_CENTER);
+        
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        // add numbers, consider changing to data fields later on, mihgt have to adjust for font size 
+        dc.drawText(dc.getWidth() / 2, (dc.getHeight() / 4) - 56, outerFont, "12", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(dc.getWidth() / 2, (3 * dc.getHeight() / 4), outerFont, "6", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((dc.getWidth() / 4) - 28, (dc.getHeight() / 2) - 28, outerFont, "9", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((3 * dc.getWidth() / 4) + 28, (dc.getHeight() / 2) - 28, outerFont, "3", Graphics.TEXT_JUSTIFY_CENTER);
+    }	
 
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
